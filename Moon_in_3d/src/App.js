@@ -9,7 +9,6 @@ import Marks from './components/marks';
 const App = () => {
   return (
     <>
-    
       <div className="w-full bg-black h-screen">
             <Canvas className="">
               <OrbitControls zoomSpeed={0.8}  enableZoom={true} autoRotate={false} autoRotateSpeed={0.6} minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 180} />
